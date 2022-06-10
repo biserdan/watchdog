@@ -1,0 +1,4 @@
+/home/ba22/CLionProjects/cmake-build-debug-remote/CMakeFiles/rebuild_cache.dir
+/home/ba22/CLionProjects/cmake-build-debug-remote/CMakeFiles/edit_cache.dir
+/home/ba22/CLionProjects/cmake-build-debug-remote/CMakeFiles/Server.dir
+/home/ba22/CLionProjects/cmake-build-debug-remote/CMakeFiles/BA.dir

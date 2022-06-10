@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/BA.dir/Client/client.cpp.o CMakeFiles/BA.dir/Client/Gamepad.cpp.o CMakeFiles/BA.dir/Client/UDP_Client.cpp.o  -o BA  -lSDL2 

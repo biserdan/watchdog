@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\JetsonGPIO\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ba22/CLionProjects/cmake-build-debug-remote"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ba22/CLionProjects/cmake-build-debug-remote"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ba22/CLionProjects/cmake-build-debug-remote"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server">
+				<Option output="/home/ba22/CLionProjects/cmake-build-debug-remote/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ba22/CLionProjects/cmake-build-debug-remote"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 Server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server/fast">
+				<Option output="/home/ba22/CLionProjects/cmake-build-debug-remote/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ba22/CLionProjects/cmake-build-debug-remote"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BA">
+				<Option output="/home/ba22/CLionProjects/cmake-build-debug-remote/BA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ba22/CLionProjects/cmake-build-debug-remote"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 BA"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BA/fast">
+				<Option output="/home/ba22/CLionProjects/cmake-build-debug-remote/BA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ba22/CLionProjects/cmake-build-debug-remote"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 BA/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ba22/CLionProjects/cmake-build-debug-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ba22/CLionProjects/Client/Gamepad.cpp">
+			<Option target="BA"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/Client/Gamepad.h">
+			<Option target="BA"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/Client/UDP_Client.cpp">
+			<Option target="BA"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/Client/UDP_Client.h">
+			<Option target="BA"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/Client/client.cpp">
+			<Option target="BA"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/Server/Controller.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/Server/Controller.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/Server/UDP_Server.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/Server/UDP_Server.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/Server/main.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/../../../usr/local/lib/cmake/JetsonGPIO/JetsonGPIOConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\JetsonGPIO\"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/../../../usr/local/lib/cmake/JetsonGPIO/JetsonGPIOConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\JetsonGPIO\"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/../../../usr/local/lib/cmake/JetsonGPIO/JetsonGPIOTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\JetsonGPIO\"/>
+		</Unit>
+		<Unit filename="/home/ba22/CLionProjects/../../../usr/local/lib/cmake/JetsonGPIO/JetsonGPIOTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\JetsonGPIO\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

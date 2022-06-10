@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/Server.dir/Server/main.cpp.o CMakeFiles/Server.dir/Server/Controller.cpp.o CMakeFiles/Server.dir/Server/UDP_Server.cpp.o  -o Server  -Wl,-rpath,/usr/local/lib /usr/local/lib/libJetsonGPIO.so.1.2.0 -lpthread 
